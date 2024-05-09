@@ -44,7 +44,7 @@ pc.script.createLoadingScreen(function (app) {
     var createCss = function () {
         var css = [
             'body {',
-            '    background-color: #283538;',
+            '    background: rgb(255,232,167);background: linear-gradient(135deg, rgba(255,232,167,1) 50%, rgba(255,255,255,1) 100%);
             '}',
 
             '#application-splash-wrapper {',
@@ -53,7 +53,7 @@ pc.script.createLoadingScreen(function (app) {
             '    left: 0;',
             '    height: 100%;',
             '    width: 100%;',
-            '    background-color: #283538;',
+            '    background: rgb(255,232,167);background: linear-gradient(135deg, rgba(255,232,167,1) 50%, rgba(255,255,255,1) 100%);
             '}',
 
             '#application-splash {',
